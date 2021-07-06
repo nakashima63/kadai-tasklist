@@ -13,6 +13,8 @@
         @include('commons.navbar')
 
         <div class="container">
+            {{-- エラ〜メッセージ --}}
+            @include('commons.error_messages')
             @yield('content')
         </div>
 
